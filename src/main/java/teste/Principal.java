@@ -11,14 +11,14 @@ public class Principal {
 		UsuarioDAO usrDAO = new UsuarioDAO();
 		//gerar cadastro (tirar/colocar o comentario para adicionar usuario no banco a cada execução.) 
 		
-		Usuario umUsr = new Usuario();
+		/*Usuario umUsr = new Usuario();
 		
 		umUsr.setNome("TESTE_novo");
 		umUsr.setSenha("123456");
 		umUsr.setEmail("teste_novo@tr.tr");
 		umUsr.setTelefone("98989898989");
 		
-		usrDAO.inserirUsuario(umUsr);
+		usrDAO.inserirUsuario(umUsr);*/
 		
 		
 		
@@ -35,7 +35,7 @@ public class Principal {
 		
 		
 
-		//excluir usuario (tirar comentario e setar Id do usuario a ser excluido.)
+		//excluir usuario (rodar listar cadastro + excluir e depois comentar o excluir para verificar o resultado.)
 		
 		/*Usuario umUsr = new Usuario();
 		
